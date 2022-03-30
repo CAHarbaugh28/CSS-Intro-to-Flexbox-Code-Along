@@ -1,3 +1,76 @@
-nav {
-  display: none;
+/* * {
+  border: 1px solid teal;
+} */
+
+aside {
+  min-width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  max-width: 175px;
+  height: 125px;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+a {
+  font-family: 'Abel', sans-serif;
+  text-decoration: none;
+  color: darkgrey;
+}
+
+h1 {
+  margin-left:1em;
+  font-size: 3em;
+}
+
+h3 {
+  font-size: 1.2em;
+}
+
+h3,h4  {
+  margin-top: .2em;
+  margin-bottom: .1em;
+}
+
+h4  {
+  text-align: center;
+  font-size: 1em;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  text-align: center;
+  font-size: 1em;
+  padding: 1em;
+}
+
+li:hover {
+  color: dimgrey;
+  cursor: pointer;
+}
+
+.card {
+  padding: 1em 2em;
+  margin: 1em;
+  background: RGBA(255, 245, 238, 0.5);
+  box-shadow: 2px 2px 4px gainsboro;
+  border-radius: 3px;
+
 }
